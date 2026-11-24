@@ -2,6 +2,8 @@
 
 Date: 2026-11-23 · Product: [IDEA.md](IDEA.md) v0.1 · Competitors are the next step and are not covered here.
 
+**Background document.** Since 2026-11-24, [PRD.md](PRD.md) is the source of truth; its compliance requirements (§8) were built from this research.
+
 **How to read this**
 - **I am not a lawyer.** ⚖️ marks an item where you need advice, with WHEN. ✅ marks standard practice that needs no advice.
 - **Tiers:**

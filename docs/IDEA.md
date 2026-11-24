@@ -1,7 +1,7 @@
 # Desh Chalao: product definition
 
 Version 0.4 · 2026-11-24 · v0.1 was agreed in chat on 2026-11-22/23. v0.2 folds in the research and competitor changes you accepted on 2026-11-24. v0.3 records that you're OK to show your address on Play ("okay to give address", 2026-11-24), which makes one-time purchases possible, and revises the Business verdict. v0.4 adds the hardening pass (2026-11-24): the feature list, screens and first version are changed in place, and "Hardening decisions" at the end gives the reasons. Some assumptions are still open for correction.
-Every later step reads this file, not the chat. Research is in [RESEARCH.md](RESEARCH.md) ("R§n" below). Competitors and the USP are in [COMPETITORS.md](COMPETITORS.md) ("C§n").
+**Since 2026-11-24, [PRD.md](PRD.md) is the source of truth.** This file is the background it was built from; later decisions are recorded in PRD.md. Research is in [RESEARCH.md](RESEARCH.md) ("R§n" below). Competitors and the USP are in [COMPETITORS.md](COMPETITORS.md) ("C§n").
 
 **Labels:**
 - **FACT**: you said it.
@@ -427,7 +427,7 @@ Credits stay because a licence requires them. Everything else on that list doesn
 | Which comes first | Users first; users bring the money ("user who let us come money", 2026-11-24) | FACT |
 | How many users, how much money, by when | No specific target: "everything in profit is welcome" (2026-11-24) | FACT |
 | What I can put in: time | "Time is okay, let it take"; no deadline | FACT |
-| What I can put in: hours a week | Not given on 2026-11-24. The Business verdict assumes 10 | OPEN QUESTION |
+| What I can put in: hours a week | 10 hours a week ("10 hours a week is fine", 2026-11-24) | FACT |
 | What I can put in: money | Nothing beyond the Play developer account ("no investment more than playstore developer account", 2026-11-24). So no lawyer, CA, paid tools or paid assets | FACT |
 | What I already have: account | A personal Google Play developer account, already created | FACT |
 | What I already have: account date | Created after 13 Nov 2023? If so, the 12-tester rule applies | OPEN QUESTION (assumed yes) |
@@ -440,7 +440,7 @@ Credits stay because a licence requires them. Everything else on that list doesn
 | What it may cost | Free tools and free tiers only (**FACT**). Paying for anything later, out of the game's own earnings, still needs your yes (**ASSUMPTION**) | FACT / ASSUMPTION |
 | Fixed costs | Play account paid. Apple's $99 a year is not planned, so Android only | FACT |
 | Legal stance | "Legal free is important": choose the conservative option when unsure | FACT |
-| Where the work is kept | Pushed to GitHub regularly: github.com/rameshkumark24/Desh-Chalao, which is public (2026-11-24) | FACT |
+| Where the work is kept | Pushed to GitHub regularly: github.com/rameshkumark24/Desh-Chalao, which stays public ("keep it public", 2026-11-24) | FACT |
 
 ---
 
@@ -449,13 +449,13 @@ Credits stay because a licence requires them. Everything else on that list doesn
 1. Testers: answered. Your friends are ready (**FACT**, 2026-11-23). Still open: who beyond friends can you reach for the first 100 players? A college, a workplace, WhatsApp or Telegram groups, an audience?
 2. Which languages can you, or someone you trust, fact-check cards in?
 3. Who writes and checks the cards? You, a helper who knows civics, or me drafting while you verify every source?
-4. How many hours a week? (Targets are answered: no specific target, and "everything in profit is welcome", 2026-11-24.)
+4. Answered: 10 hours a week, and no specific target ("everything in profit is welcome"), both 2026-11-24.
 5. When was your Play developer account created: before or after 13 Nov 2023?
 6. Is the idle game ("App") on Play, and can I get access to its code for Milestone 0? (Its GitHub repo returned 404.)
 7. Did "user get update" mean promotion rung by rung, new tiers arriving as app updates, or both?
 8. Answered: you said "yes to all changes" and "yes to both additions" on 2026-11-24, so all 19 changes at the top are accepted.
 9. Answered: D3 is (a), "yes agreed" (2026-11-24).
-10. The GitHub repo is public, so the plan, the research and later the code can be read by anyone. Keep it public, or switch it to private (free)? (Hardening K10.)
+10. Answered: the GitHub repo stays public ("keep it public", 2026-11-24).
 
 ---
 
@@ -479,7 +479,7 @@ Credits stay because a licence requires them. Everything else on that list doesn
   - No specific target: "everything in profit is welcome" (**FACT**, 2026-11-24). So I judge money by its first milestones (earning back the $25, then the first payout), and users against example targets.
   - The smallest real money milestone is **your first payout**. Google pays Indian developers by wire transfer in US dollars, and only once your balance reaches **US$100** ([Play-wire] · SEEN).
 - **What you can put in:** no cash beyond the Play account, and time "let it take" (**FACT**).
-  - Hours a week weren't given, so I use **10 hours a week** (ASSUMED). Tell me your real number and I'll redo the weeks.
+  - **10 hours a week** (**FACT**, "10 hours a week is fine", 2026-11-24).
   - No price is put on your hours (your rule).
 - **What you have:** a personal Play account; 12 friends as testers, who are also your only reach (**FACT**).
 - **Where you sell:** Google Play (**FACT**), in India (ASSUMPTION).
@@ -565,7 +565,7 @@ At about 2 hours of your time per session (ASSUMED), that is **82 hours** (DERIV
 | Your hours a week | Build weeks | Fixed waits | To public |
 |---|---|---|---|
 | 5 | 16.4 | +3 | ~19–20 weeks |
-| **10 (ASSUMED)** | **8.2** | **+3** | **~11 weeks** |
+| **10 (FACT)** | **8.2** | **+3** | **~11 weeks** |
 | 20 | 4.1 | +3 | ~7 weeks |
 
 **The fixed waits nobody can shorten** ([Play-testing] · SEEN):
@@ -734,7 +734,7 @@ The deciding number, organic installs a month, only exists once the app is live 
 [Linkrunner]: https://linkrunner.io/cost-per-install-benchmark
 [Playio-CPI]: https://blog.playio.co/mobile-game-cpi-benchmarks-2026
 
-SCORE — first version: ~11 weeks (₹0 cash; at 10 h/week, ASSUMED) · likely at month 12: ~100 daily players, ~₹1,000/month earned from one ₹99 pack (first $100 payout ~month 16) · needs: organic Play installs ≥1,600/month (ORDINARY; new entrants show ≥2,500) · DO IT (with a stop rule; rests on ASSUMED numbers)
+SCORE — first version: ~11 weeks (₹0 cash; at 10 h/week) · likely at month 12: ~100 daily players, ~₹1,000/month earned from one ₹99 pack (first $100 payout ~month 16) · needs: organic Play installs ≥1,600/month (ORDINARY; new entrants show ≥2,500) · DO IT (with a stop rule; rests on ASSUMED numbers)
 
 ---
 
@@ -822,7 +822,7 @@ SCORE — first version: ~11 weeks (₹0 cash; at 10 h/week, ASSUMED) · likely 
 | Testers' email addresses | Yes, for Play's closed test | **Keep until production access,** then remove from the list |
 | Testers' names on their feedback | No | **Cut.** Four answers per tester, nothing else |
 
-**THE DATA TABLE.** The privacy policy (B1, B2) and Play's Data safety form are written from it.
+**THE DATA TABLE.** The privacy policy (B1, B2) and Play's Data safety form are written from it. From 2026-11-24 it is kept current in [PRD.md](PRD.md) §8, not here.
 
 | # | What | Why | Where it's kept | Who else receives it (by name; every SDK) | How long | What allows it |
 |---|---|---|---|---|---|---|
@@ -884,7 +884,7 @@ Each of these is a decision, not an accident.
 | K7 | **No crash-reporting or analytics SDK.** Fewer details about crashes and how people play | Play Console's statistics, Android vitals and your testers cover v1. Collecting nothing is the design | Crashes in Android vitals that we can't reproduce |
 | K8 | **Your name, address and email are public.** Your address is on the listing from v1.1; your name shows as grievance officer from v1 | Play requires them to sell, and so do the E-Commerce Rules. You accepted this (**FACT**) | — |
 | K9 | **One personal Play account.** A policy strike or a hijacked login stops everything | 2-step verification (B7) and careful content lower the risk. A second account is not a fix | — |
-| K10 | **A public repo.** Anyone can read the plan and the research, and later the code and the content files | You asked for regular GitHub pushes. Switching the repo to private is free | Your call, any time |
+| K10 | **A public repo.** Anyone can read the plan and the research, and later the code and the content files | You asked for regular GitHub pushes, and chose to keep the repo public (2026-11-24) | — |
 | K11 | **Generic institution names.** The CM and PM tiers feel a little less real: "the House", not Lok Sabha | There's no budget for a legal check on the Emblems Act's grey area (R§2.9) | Earnings that can pay for advice, with your yes |
 | K12 | **No trademark registration.** Someone else could register "Desh Chalao" | Registration costs money. A free public search before launch catches existing marks (B9) | The game growing |
 

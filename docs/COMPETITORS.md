@@ -2,6 +2,8 @@
 
 **When:** written 2026-11-24. Data was seen on 2026-11-23 unless a claim says otherwise; a few items come from the 2026-11-22 idea sort.
 
+**Background document.** Since 2026-11-24, [PRD.md](PRD.md) is the source of truth; its user, USP and refusals were built from this study.
+
 **Product:** [IDEA.md](IDEA.md). This research does not use [RESEARCH.md](RESEARCH.md); it is market research only.
 
 **How it was done:**
