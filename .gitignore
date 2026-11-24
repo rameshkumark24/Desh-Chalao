@@ -1,0 +1,22 @@
+# Keys and passwords never go to GitHub (docs/IDEA.md, Hardening B5 and E15).
+# This repo is public.
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+local.properties
+
+# Build output
+.gradle/
+build/
+out/
+*.apk
+*.aab
+
+# Editors and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
